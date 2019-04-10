@@ -1,0 +1,36 @@
+{
+  "name": "toolkit",
+  "version": "1.0.0",
+  "description": "toolkit by ts ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "  cross-env NODE_ENV=development webpack-dev-server",
+    "build": "cross-env NODE_ENV=production webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pch1024/toolkit.git"
+  },
+  "keywords": [
+    "pch1024",
+    "toolkit",
+    "javascript"
+  ],
+  "author": "pch1024",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pch1024/toolkit/issues"
+  },
+  "homepage": "https://github.com/pch1024/toolkit#readme",
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "clean-webpack-plugin": "^2.0.1",
+    "cross-env": "^5.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "source-map-loader": "^0.2.4",
+    "typescript": "^3.4.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.3.1"
+  }
+}
