@@ -1,0 +1,32 @@
+.btnWater {
+  display: inline-block;
+  padding: 10px 50px;
+  color: white;
+  background: blue;
+  margin: 1em;
+  text-align: center;
+  line-height: 50px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+  border: 2px solid rgba(white, 0.5);
+}
+.btnWater > i {
+  pointer-events: none;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  animation: btnWater-animation 1000ms linear;
+}
+@keyframes btnWater-animation {
+  from {
+    transform: scale(0);
+    background: rgba(255, 255, 255, 0.4);
+  }
+  to {
+    transform: scale(50);
+    background: rgba(255, 255, 255, 0);
+  }
+}
